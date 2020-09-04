@@ -1,0 +1,66 @@
+/* PADDING */
+.container {
+  max-width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-6 {
+  flex: 50%;
+}
+
+.title {
+  font-size: 40px;
+}
+/* MARGIN */
+/* CLASS SELECTOR (modifies elements with matching className) */
+.bostonCollegePicture {
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 10px;
+}
+/* COLOR */
+/* DESCENDANT SELECTOR (modifies "p" elements inside "div" elements) */
+div p {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: maroon;
+  background-color: lightgrey;
+  padding: 15px 15px;
+  width: 90%;
+}
+
+.footer {
+  justify-content: center;
+  display: flex;
+}
+
+/* ID SELECTOR (modifies elements with matching id) */
+#specialText {
+  color: blue;
+}
+
+p {
+  font-size: large;
+}
+
+div {
+  padding-top: 15px;
+}
+/* CUSTOM HOVER-EFFECT */
+a:hover,
+a:active {
+  background-color: gold;
+}
+
+/* OVERRIDE MILLIGRAM */
+.button {
+  background-color: maroon;
+}
+
+.button:hover {
+  background-color: red;
+}
